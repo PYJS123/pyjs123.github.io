@@ -1,5 +1,5 @@
 // Keep track of background colour
-let color = [255, 125, 52];
+let color = [57, 173, 57];
 
 // Noiseval for noise()
 let noiseVal = 0;
