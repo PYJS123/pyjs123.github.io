@@ -2,8 +2,27 @@
 
 body {
   font-family: Montserrat, Verdana;
+  background-color: #4abe4aaa;
+  margin: 0px;
 }
 
 .underlined-header {
   text-decoration: underline;
+}
+
+.area1 {
+  background-color: #4abe4a;
+}
+
+.area2 {
+  background-color: #7332a8;
+  color: lightgray;
+}
+
+.area3 {
+  background-color: #b9f542;
+}
+
+.area1, .area2, .area3 {
+  padding: 8px;
 }
