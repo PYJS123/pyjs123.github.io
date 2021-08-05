@@ -11,18 +11,40 @@ body {
 }
 
 .area1 {
-  background-color: #4abe4a;
+  background-image: linear-gradient(to right, #4abe4aFF, #4abe4a66);
 }
 
 .area2 {
-  background-color: #7332a8;
+  background-image: linear-gradient(to right, #7332a8FF, #7332a866);
   color: lightgray;
 }
 
 .area3 {
-  background-color: #b9f542;
+  background-image: linear-gradient(to right, #b9f542FF, #b9f54266);
 }
 
 .area1, .area2, .area3 {
-  padding: 8px;
+  padding: 16px;
+}
+
+.banner {
+  background-image: linear-gradient(to right, #ff8000FF, #ff800066);
+  text-align: center;
+  font-size: 30px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+.area3 > ul > li > a, .area1 > ul > li > a {
+  font-weight: bold;
+}
+
+.area1 > ul > li {
+  font-size: 20px;
+}
+
+.area2 > ul > li > a, .area2 > ul > li {
+  color: cyan;
 }
